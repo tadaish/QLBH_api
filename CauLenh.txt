@@ -1,0 +1,10 @@
+1. EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore -version 5.0.10
+2. SqlServer
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 5.0.10
+3. Tools
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 5.0.10
+
+4. ket noi db
+
+Scaffold-DbContext "Data Source=.;Initial Catalog=Northwind;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
